@@ -4,7 +4,7 @@
   "description": "This is a nodejs backend for blog application",
   "main": "server.js",
   "scripts": {
-    "test": "mocha tests/**/**.spec.js --watch"
+    "test": "mocha tests/**/**.spec.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
   }
 }
