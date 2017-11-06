@@ -19,7 +19,7 @@ Run the following command to import sample data:
 
 where _test-database_ is a name of the database and _posts_ is a collection name.
 
-### Run server
+## Run server
 1. Go to project directory
 
 1. Install all dependencies
@@ -33,7 +33,7 @@ where _test-database_ is a name of the database and _posts_ is a collection name
     ```
 Server should log that it's listening on localhost and specific port (5000 by default).
 
-### Run tests
+## Run tests
 From your project directory run only one command:
 ```shell
 npm test
