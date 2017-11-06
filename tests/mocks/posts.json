@@ -1,0 +1,49 @@
+[
+  {
+    "_id": "58fbaa40cf2529082e96c8ca",
+    "content": "Content0",
+    "comments": [
+      {
+        "username": "NormalUser",
+        "text": "Text0"
+      }
+    ],
+    "title": "Title0",
+    "photoLink": "https://www.szerokikadr.pl/public/repozytorium/poradnik/201211/3/160_732388c2.jpg",
+    "tags": [
+      "tag",
+      "tag0"
+    ],
+    "categories": [
+      "category",
+      "category0"
+    ],
+    "created": {}
+  },
+  {
+    "_id": "58fbaa40cf2529082e96c8cb",
+    "content": "Content1 Content0",
+    "likes": [
+      {
+        "username": "NormalUser"
+      }
+    ],
+    "comments": [
+      {
+        "username": "NormalUser",
+        "text": "Text1"
+      }
+    ],
+    "title": "Title1",
+    "photoLink": "https://www.szerokikadr.pl/public/repozytorium/poradnik/201211/3/160_732388c2.jpg",
+    "tags": [
+      "tag",
+      "tag1"
+    ],
+    "categories": [
+      "category",
+      "category1"
+    ],
+    "created": {}
+  }
+]

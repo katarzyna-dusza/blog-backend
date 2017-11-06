@@ -1,0 +1,24 @@
+{
+  "name": "backend-nodejs",
+  "version": "1.0.0",
+  "description": "This is a nodejs backend for blog application",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha tests/**/**.spec.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "mongodb": "^2.2.33",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1"
+  }
+}
