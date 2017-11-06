@@ -6,8 +6,8 @@ Frontend can be found [here](https://github.com/katarzyna-dusza/blog-frontend).
 It's still in progress.
 
 ## Technologies
-- **NodeJS v8**
-- **ExpressJS**
+- **Node.js v8**
+- **Express.js**
 - **MongoDB**
 
 ## MongoDB
@@ -20,7 +20,7 @@ Run the following command to import sample data:
 where _test-database_ is a name of the database and _posts_ is a collection name.
 
 ## Run server
-1. Go to project directory
+1. Go to the project directory
 
 1. Install all dependencies
     ```shell
