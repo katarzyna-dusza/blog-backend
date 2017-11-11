@@ -27,12 +27,12 @@ To make text search (by title or post's content) available, you have to create t
 mongo
 ```
 
-1. Select a proper database
+2. Select a proper database
 ```shell
 use test-database
 ```
 
-1. Create text index on posts collection
+3. Create text index on posts collection
 
 ```shell
 db.posts.createIndex({title: "text", content: "text"})
