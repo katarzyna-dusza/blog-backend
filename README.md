@@ -3,6 +3,7 @@
 ## Overview
 This repo contains the whole backend for the blog application. 
 Frontend can be found [here](https://github.com/katarzyna-dusza/blog-frontend).
+
 It's still in progress.
 
 ## Technologies
@@ -18,6 +19,24 @@ Run the following command to import sample data:
 ```
 
 where _test-database_ is a name of the database and _posts_ is a collection name.
+
+To make text search (by title or post's content) available, you have to create text indexes.
+1. Run Mongo shell
+
+```shell
+mongo
+```
+
+1. Select a proper database
+```shell
+use test-database
+```
+
+1. Create text index on posts collection
+
+```shell
+db.posts.createIndex({title: "text", content: "text"})
+```
 
 ## Run server
 1. Go to the project directory
