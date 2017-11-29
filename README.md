@@ -4,7 +4,7 @@
 This repo contains the whole backend for the blog application. 
 Frontend can be found [here](https://github.com/katarzyna-dusza/blog-frontend).
 
-It's still in progress.
+It's still in progress (see _Roadmap_ section).
 
 ## Technologies
 - **Node.js v8**
@@ -55,5 +55,11 @@ Server should log that it's listening on localhost and specific port (5000 by de
 ## Run tests
 From your project directory run only one command:
 ```shell
-npm test
+npm testx
 ```
+
+## Roadmap
+There is a couple of things, which need to be improved:
+* posts collection: creating, deleting and updating posts
+* users collection: the whole CRUD of users
+* tests for above points
