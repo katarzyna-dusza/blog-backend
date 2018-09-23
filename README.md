@@ -4,18 +4,17 @@
 This repo contains the whole backend for the blog application. 
 Frontend can be found [here](https://github.com/katarzyna-dusza/blog-frontend).
 
-It's still in progress (see _Roadmap_ section).
-
 ## Technologies
 - **Node.js v8**
 - **Express.js**
 - **MongoDB**
 
 ## MongoDB
-Keep in mind that this application uses MongoDB, which should be installed on your local machine.
-Run the following command to import sample data:
+Keep in mind that this application uses MongoDB, which should be installed on your local machine. Run mongod and mongo, then import sample data:
 ```shell
- mongoimport --db test-database --collection posts --file mongo-import.json
+ > mongod
+ > mongo
+ > mongoimport --db test-database --collection posts --file mongo-import.json
 ```
 
 where _test-database_ is a name of the database and _posts_ is a collection name.
@@ -60,6 +59,6 @@ npm testx
 
 ## Roadmap
 There is a couple of things, which need to be improved:
-* posts collection: creating, deleting and updating posts
-* users collection: the whole CRUD of users
-* tests for above points
+- [ ] posts collection: creating, deleting and updating posts
+- [ ] users collection: the whole CRUD of users
+- [ ] tests for above points
